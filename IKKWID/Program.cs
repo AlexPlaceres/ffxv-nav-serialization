@@ -25,6 +25,8 @@ namespace IKKWID
                     {
                         string FileName = Path.GetFileNameWithoutExtension(binaryPath) + "_serialized.bin";
                         Console.ReadKey();
+
+                        //Literally useless stuff I gotta get rid of
                         /*
                         Console.WriteLine("Reading File: " + Path.GetFileNameWithoutExtension(binaryPath) + ".nav");
 
@@ -165,6 +167,8 @@ namespace IKKWID
             }
         }
 
+
+        //ALL of this isn't used and I've got to get rid of it
         public static LayerMeshFile[] ReadLayerMeshFiles(string Path, AutoGenerationDataFile dataFile)
         {
             LayerMeshFile[] layerMeshFiles = new LayerMeshFile[dataFile.layerMeshFileCount];
